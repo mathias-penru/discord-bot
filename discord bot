@@ -29,6 +29,12 @@ async def on_message(message):
         await message.channel.send('25 de diciembre')
  elif message.content.startswith('$fecha de la primera junta de gobierno de chile'):
         await message.channel.send('18 de septiembre')
+ elif message.content.startswith('$como te encuentras'):
+        await message.channel.send('bien bien')
+ elif message.content.startswith('$cuenta un chiste malo'):
+        await message.channel.send('que le dice un jardinero a otro? nos vemos cuando podamos')
+ elif message.content.startswith('$jajaja'):
+        await message.channel.send('JAJAJA')
 
 
     
